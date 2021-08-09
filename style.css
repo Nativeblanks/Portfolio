@@ -1,0 +1,87 @@
+body {
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/space.jpg);
+    background-color: #cccccc
+}
+
+.zone {
+    color:#FFF;
+    font-size:2em;
+    border-radius:3px;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+ul {
+    margin: auto 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin: 30px;
+}
+
+img {
+    display: flex;
+    width: 600px;
+    height: auto 300px;
+}
+
+img:hover {
+    transform: scaleX(110%) scaleY(130%);
+}
+
+p {
+    color: whitesmoke ;
+}
+
+aside {
+    background-color: rgb(65, 68, 68);
+    opacity: 45%;
+    border: darkmagenta;
+}
+
+footer {
+    font-size: x-large;
+    text-align: center;
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header {
+    /* this will be applied on any screen between 768px and 575px */
+    font-size: 80px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header {
+    /* this will be applied on any screen smaller than 575px */
+    font-size: 100px;
+  }
+}
+
