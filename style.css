@@ -5,13 +5,14 @@ body {
     background-color: #cccccc
 }
 
+/* Setting zone for header */
 .zone {
     color:#FFF;
-    font-size:2em;
+    font-size:50px;
     border-radius:3px;
     transition: all 0.3s linear;
 }
-
+/*  Header shadow  */
 .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
@@ -23,7 +24,7 @@ ul {
     margin: auto 0;
     padding: 0;
 }
-
+/*  Header text centered and list styling */
 li {
     list-style: none;
     display: flex;
@@ -32,37 +33,39 @@ li {
     align-content: space-around;
 }
 
+/* Alignment for container/projects  */
+
 .flex-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+/* Spacing adjustment */
 section {
     margin: 30px;
 }
-
+/* image alignment */
 img {
     display: flex;
     width: 600px;
-    height: auto 300px;
+    height: auto;
 }
-
+/* hover animation */
 img:hover {
     transform: scaleX(110%) scaleY(130%);
 }
-
+/*  text color */
 p {
     color: whitesmoke ;
 }
-
+/* About me design */
 aside {
     background-color: rgb(65, 68, 68);
     opacity: 45%;
     border: darkmagenta;
 }
-
+/* text alignment */
 footer {
     font-size: x-large;
     text-align: center;
@@ -73,7 +76,7 @@ footer {
 @media screen and (max-width: 768px) {
   header {
     /* this will be applied on any screen between 768px and 575px */
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 
@@ -81,7 +84,7 @@ footer {
 @media screen and (max-width: 575px) {
   header {
     /* this will be applied on any screen smaller than 575px */
-    font-size: 100px;
+    font-size: 50px;
   }
 }
 
