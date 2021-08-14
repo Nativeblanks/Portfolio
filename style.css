@@ -45,6 +45,7 @@ li {
 section {
     margin: 30px;
 }
+
 /* image alignment */
 img {
     display: flex;
@@ -65,13 +66,21 @@ aside {
     opacity: 45%;
     border: darkmagenta;
 }
+
+
+
 /* text alignment */
 footer {
     font-size: x-large;
     text-align: center;
 }
 
-
+/*  Photo of me */
+.me {
+    height: 300px;
+    width: 200px;
+    display: inline
+}
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   header {
