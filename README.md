@@ -1,6 +1,6 @@
 # Portfolio
 
-# The expanding portfolia of Zachary Blanks
+# The expanding portfolio of Zachary Blanks
 
 ```bash
 https://github.com/Nativeblanks
